@@ -14,3 +14,9 @@ var _pet2 = 'pantera';
 document.write(_pet2);
 
 //var 12 = 'numero';
+
+document.getElementById("criceto").innerHTML = petPreferito;
+document.getElementById("coniglio").innerHTML = PetPreferito;
+document.getElementById("giraffa").innerHTML = $pet;
+document.getElementById("leone").innerHTML = _pet;
+document.getElementById("pantera").innerHTML = _pet2;

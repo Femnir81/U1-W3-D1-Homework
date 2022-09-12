@@ -1,0 +1,100 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.animali {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:lavender;
+}
+
+#criceto {
+    width: 10vw;
+    padding: 10px;
+    background-color: aqua;
+    text-align: center;
+    border: 10px solid rgb(0, 0, 0);
+    margin: 10px;
+}
+
+#coniglio {
+    width: 10vw;
+    padding: 10px;
+    background-color: aqua;
+    text-align: center;
+    border: 10px solid rgb(0, 0, 0);
+    margin: 10px;
+}
+
+#giraffa {
+    width: 10vw;
+    padding: 10px;
+    background-color: aqua;
+    text-align: center;
+    border: 10px solid rgb(0, 0, 0);
+    margin: 10px;
+}
+
+#leone {
+    width: 10vw;
+    padding: 10px;
+    background-color: aqua;
+    text-align: center;
+    border: 10px solid rgb(0, 0, 0);
+    margin: 10px;
+}
+
+#pantera {
+    width: 10vw;
+    padding: 10px;
+    background-color: aqua;
+    text-align: center;
+    border: 10px solid rgb(0, 0, 0);
+    margin: 10px;
+}
+
+#criceto, #coniglio, #giraffa, #leone, #pantera {
+    animation: shiver 2s linear infinite;
+}
+
+#coniglio {
+    animation-delay: 0.4s;
+}
+#giraffa {
+    animation-delay: 0.8s;
+}
+#leone {
+    animation-delay: 1.2s;
+}
+#pantera {
+    animation-delay: 1.6s;
+}
+
+@keyframes shiver {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
